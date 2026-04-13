@@ -15,7 +15,7 @@ function App() {
   function handleDelete(id) {
     setnotesArr((prevState) => {
       return prevState.filter((item, index) => {
-        return index != id;
+        return index !== id;
       });
     });
   }
